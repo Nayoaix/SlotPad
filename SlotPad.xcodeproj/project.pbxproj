@@ -16,6 +16,8 @@
 		D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */; };
 		D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */; };
 		D31A8EFC1C6988A600CD4F44 /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */; };
+		D31A8EFE1C69AC0C00CD4F44 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EFD1C69AC0C00CD4F44 /* FriendTableViewCell.swift */; };
+		D31A8F001C69B60500CD4F44 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EFF1C69B60500CD4F44 /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 		D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
+		D31A8EFD1C69AC0C00CD4F44 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		D31A8EFF1C69B60500CD4F44 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				D31A8EF51C682EB600CD4F44 /* TabBarController.swift */,
 				D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */,
 				D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */,
+				D31A8EFF1C69B60500CD4F44 /* SettingTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			children = (
 				D31A8EE01C68285000CD4F44 /* Main.storyboard */,
 				D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */,
+				D31A8EFD1C69AC0C00CD4F44 /* FriendTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -171,12 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31A8F001C69B60500CD4F44 /* SettingTableViewController.swift in Sources */,
 				D31A8EF61C682EB600CD4F44 /* TabBarController.swift in Sources */,
 				D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */,
 				D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */,
 				D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */,
 				D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */,
 				D31A8EFC1C6988A600CD4F44 /* FriendTableViewController.swift in Sources */,
+				D31A8EFE1C69AC0C00CD4F44 /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

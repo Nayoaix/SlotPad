@@ -19,7 +19,7 @@ class EventTableViewController: UITableViewController {
         
         //configureView()
     }
-    
+
     func configureView(){
         self.tableView.rowHeight = 120
     }
