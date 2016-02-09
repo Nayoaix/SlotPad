@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EDC1C68285000CD4F44 /* AppDelegate.swift */; };
-		D31A8EDF1C68285000CD4F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EDE1C68285000CD4F44 /* ViewController.swift */; };
 		D31A8EE21C68285000CD4F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31A8EE01C68285000CD4F44 /* Main.storyboard */; };
 		D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EE31C68285000CD4F44 /* SlotPad.xcdatamodeld */; };
 		D31A8EE71C68285000CD4F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31A8EE61C68285000CD4F44 /* Assets.xcassets */; };
 		D31A8EEA1C68285000CD4F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31A8EE81C68285000CD4F44 /* LaunchScreen.storyboard */; };
+		D31A8EF61C682EB600CD4F44 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EF51C682EB600CD4F44 /* TabBarController.swift */; };
+		D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */; };
+		D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */; };
+		D31A8EFC1C6988A600CD4F44 /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D31A8ED91C68285000CD4F44 /* SlotPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31A8EDC1C68285000CD4F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D31A8EDE1C68285000CD4F44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D31A8EE11C68285000CD4F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D31A8EE41C68285000CD4F44 /* SlotPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlotPad.xcdatamodel; sourceTree = "<group>"; };
 		D31A8EE61C68285000CD4F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31A8EE91C68285000CD4F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31A8EEB1C68285000CD4F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31A8EF51C682EB600CD4F44 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		D31A8EDB1C68285000CD4F44 /* SlotPad */ = {
 			isa = PBXGroup;
 			children = (
+				D31A8EF31C682E8B00CD4F44 /* Model */,
+				D31A8EF41C682E9100CD4F44 /* View */,
+				D31A8EF11C682E7900CD4F44 /* Controller */,
 				D31A8EDC1C68285000CD4F44 /* AppDelegate.swift */,
-				D31A8EDE1C68285000CD4F44 /* ViewController.swift */,
-				D31A8EE01C68285000CD4F44 /* Main.storyboard */,
 				D31A8EE61C68285000CD4F44 /* Assets.xcassets */,
 				D31A8EE81C68285000CD4F44 /* LaunchScreen.storyboard */,
 				D31A8EEB1C68285000CD4F44 /* Info.plist */,
-				D31A8EE31C68285000CD4F44 /* SlotPad.xcdatamodeld */,
 			);
 			path = SlotPad;
+			sourceTree = "<group>";
+		};
+		D31A8EF11C682E7900CD4F44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D31A8EF51C682EB600CD4F44 /* TabBarController.swift */,
+				D31A8EF71C68364900CD4F44 /* EventTableViewController.swift */,
+				D31A8EFB1C6988A600CD4F44 /* FriendTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D31A8EF31C682E8B00CD4F44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D31A8EE31C68285000CD4F44 /* SlotPad.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D31A8EF41C682E9100CD4F44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D31A8EE01C68285000CD4F44 /* Main.storyboard */,
+				D31A8EF91C683F7400CD4F44 /* EventTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31A8EDF1C68285000CD4F44 /* ViewController.swift in Sources */,
+				D31A8EF61C682EB600CD4F44 /* TabBarController.swift in Sources */,
 				D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */,
+				D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */,
+				D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */,
 				D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */,
+				D31A8EFC1C6988A600CD4F44 /* FriendTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
