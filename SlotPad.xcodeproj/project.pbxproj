@@ -21,6 +21,9 @@
 		D3A29BF51C6AD11E00077C57 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BF41C6AD11E00077C57 /* EventDetailViewController.swift */; };
 		D3A29BF71C6AE1EB00077C57 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BF61C6AE1EB00077C57 /* NewEventViewController.swift */; };
 		D3A29BF91C6AE8DF00077C57 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BF81C6AE8DF00077C57 /* FriendDetailViewController.swift */; };
+		D3A29BFB1C6AEDF700077C57 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BFA1C6AEDF700077C57 /* ProfileViewController.swift */; };
+		D3A29BFD1C6AEE0C00077C57 /* MyClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BFC1C6AEE0C00077C57 /* MyClassViewController.swift */; };
+		D3A29BFF1C6AEE1D00077C57 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A29BFE1C6AEE1D00077C57 /* PrivacyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		D3A29BF41C6AD11E00077C57 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		D3A29BF61C6AE1EB00077C57 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		D3A29BF81C6AE8DF00077C57 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		D3A29BFA1C6AEDF700077C57 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D3A29BFC1C6AEE0C00077C57 /* MyClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClassViewController.swift; sourceTree = "<group>"; };
+		D3A29BFE1C6AEE1D00077C57 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 				D3A29BF41C6AD11E00077C57 /* EventDetailViewController.swift */,
 				D3A29BF61C6AE1EB00077C57 /* NewEventViewController.swift */,
 				D3A29BF81C6AE8DF00077C57 /* FriendDetailViewController.swift */,
+				D3A29BFA1C6AEDF700077C57 /* ProfileViewController.swift */,
+				D3A29BFC1C6AEE0C00077C57 /* MyClassViewController.swift */,
+				D3A29BFE1C6AEE1D00077C57 /* PrivacyViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -189,11 +198,14 @@
 				D31A8F001C69B60500CD4F44 /* SettingTableViewController.swift in Sources */,
 				D31A8EF61C682EB600CD4F44 /* TabBarController.swift in Sources */,
 				D3A29BF91C6AE8DF00077C57 /* FriendDetailViewController.swift in Sources */,
+				D3A29BFF1C6AEE1D00077C57 /* PrivacyViewController.swift in Sources */,
 				D3A29BF71C6AE1EB00077C57 /* NewEventViewController.swift in Sources */,
 				D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */,
 				D3A29BF51C6AD11E00077C57 /* EventDetailViewController.swift in Sources */,
+				D3A29BFB1C6AEDF700077C57 /* ProfileViewController.swift in Sources */,
 				D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */,
 				D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */,
+				D3A29BFD1C6AEE0C00077C57 /* MyClassViewController.swift in Sources */,
 				D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */,
 				D31A8EFC1C6988A600CD4F44 /* FriendTableViewController.swift in Sources */,
 				D31A8EFE1C69AC0C00CD4F44 /* FriendTableViewCell.swift in Sources */,

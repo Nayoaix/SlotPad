@@ -15,4 +15,21 @@ class SettingTableViewController: UITableViewController {
         
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showProfile" {
+            if let destination = segue.destinationViewController as? ProfileViewController {
+                destination.hidesBottomBarWhenPushed = true
+            }
+        }
+        else if segue.identifier == "showMyClass" {
+            if let destination = segue.destinationViewController as? MyClassViewController {
+                destination.hidesBottomBarWhenPushed = true
+            }
+        }
+        else if segue.identifier == "showPrivacySetting" {
+            if let destination = segue.destinationViewController as? PrivacyViewController {
+                destination.hidesBottomBarWhenPushed = true
+            }
+        }
+    }
 }
