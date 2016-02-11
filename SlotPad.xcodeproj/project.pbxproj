@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319109AEEA802056694C618C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EE9234AA8782C5370796C5 /* Pods.framework */; };
+		D31142D71C6C5B36001EFBAE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31142D61C6C5B36001EFBAE /* LoginViewController.swift */; };
+		D31142D91C6C6296001EFBAE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31142D81C6C6296001EFBAE /* SignUpViewController.swift */; };
 		D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EDC1C68285000CD4F44 /* AppDelegate.swift */; };
 		D31A8EE21C68285000CD4F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31A8EE01C68285000CD4F44 /* Main.storyboard */; };
 		D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D31A8EE31C68285000CD4F44 /* SlotPad.xcdatamodeld */; };
@@ -27,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66EE9234AA8782C5370796C5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956908309930F5FCDFF23904 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D31142D31C6C4E9E001EFBAE /* SlotPad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlotPad-Bridging-Header.h"; sourceTree = "<group>"; };
+		D31142D61C6C5B36001EFBAE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D31142D81C6C6296001EFBAE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D31A8ED91C68285000CD4F44 /* SlotPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31A8EDC1C68285000CD4F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D31A8EE11C68285000CD4F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +54,7 @@
 		D3A29BFA1C6AEDF700077C57 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D3A29BFC1C6AEE0C00077C57 /* MyClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClassViewController.swift; sourceTree = "<group>"; };
 		D3A29BFE1C6AEE1D00077C57 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		F8706E58428EC6294B341524 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +62,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319109AEEA802056694C618C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022D8FA194A31CF9D8D39BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EE9234AA8782C5370796C5 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		108FAA3F571597D31AC52795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				956908309930F5FCDFF23904 /* Pods.debug.xcconfig */,
+				F8706E58428EC6294B341524 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D31A8ED01C68285000CD4F44 = {
 			isa = PBXGroup;
 			children = (
 				D31A8EDB1C68285000CD4F44 /* SlotPad */,
 				D31A8EDA1C68285000CD4F44 /* Products */,
+				108FAA3F571597D31AC52795 /* Pods */,
+				022D8FA194A31CF9D8D39BE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +114,7 @@
 				D31A8EE61C68285000CD4F44 /* Assets.xcassets */,
 				D31A8EE81C68285000CD4F44 /* LaunchScreen.storyboard */,
 				D31A8EEB1C68285000CD4F44 /* Info.plist */,
+				D31142D31C6C4E9E001EFBAE /* SlotPad-Bridging-Header.h */,
 			);
 			path = SlotPad;
 			sourceTree = "<group>";
@@ -102,6 +132,8 @@
 				D3A29BFA1C6AEDF700077C57 /* ProfileViewController.swift */,
 				D3A29BFC1C6AEE0C00077C57 /* MyClassViewController.swift */,
 				D3A29BFE1C6AEE1D00077C57 /* PrivacyViewController.swift */,
+				D31142D61C6C5B36001EFBAE /* LoginViewController.swift */,
+				D31142D81C6C6296001EFBAE /* SignUpViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -131,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D31A8EEE1C68285000CD4F44 /* Build configuration list for PBXNativeTarget "SlotPad" */;
 			buildPhases = (
+				6B8E43C81163A9D29D0BE785 /* Check Pods Manifest.lock */,
 				D31A8ED51C68285000CD4F44 /* Sources */,
 				D31A8ED61C68285000CD4F44 /* Frameworks */,
 				D31A8ED71C68285000CD4F44 /* Resources */,
+				2D9889625B94BC63405D1C83 /* Embed Pods Frameworks */,
+				06032BC2B4328E7D9F656232 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +225,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06032BC2B4328E7D9F656232 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D9889625B94BC63405D1C83 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8E43C81163A9D29D0BE785 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D31A8ED51C68285000CD4F44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -198,12 +281,14 @@
 				D31A8F001C69B60500CD4F44 /* SettingTableViewController.swift in Sources */,
 				D31A8EF61C682EB600CD4F44 /* TabBarController.swift in Sources */,
 				D3A29BF91C6AE8DF00077C57 /* FriendDetailViewController.swift in Sources */,
+				D31142D71C6C5B36001EFBAE /* LoginViewController.swift in Sources */,
 				D3A29BFF1C6AEE1D00077C57 /* PrivacyViewController.swift in Sources */,
 				D3A29BF71C6AE1EB00077C57 /* NewEventViewController.swift in Sources */,
 				D31A8EE51C68285000CD4F44 /* SlotPad.xcdatamodeld in Sources */,
 				D3A29BF51C6AD11E00077C57 /* EventDetailViewController.swift in Sources */,
 				D3A29BFB1C6AEDF700077C57 /* ProfileViewController.swift in Sources */,
 				D31A8EF81C68364900CD4F44 /* EventTableViewController.swift in Sources */,
+				D31142D91C6C6296001EFBAE /* SignUpViewController.swift in Sources */,
 				D31A8EFA1C683F7400CD4F44 /* EventTableViewCell.swift in Sources */,
 				D3A29BFD1C6AEE0C00077C57 /* MyClassViewController.swift in Sources */,
 				D31A8EDD1C68285000CD4F44 /* AppDelegate.swift in Sources */,
@@ -317,23 +402,30 @@
 		};
 		D31A8EEF1C68285000CD4F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956908309930F5FCDFF23904 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlotPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoyanWu.SlotPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlotPad/SlotPad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D31A8EF01C68285000CD4F44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8706E58428EC6294B341524 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlotPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoyanWu.SlotPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlotPad/SlotPad-Bridging-Header.h";
 			};
 			name = Release;
 		};

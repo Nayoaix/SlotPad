@@ -14,9 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        AVOSCloud.setServiceRegion(.US)
+        AVOSCloud.setApplicationId("NlsSlCmAXXyXmv7bfWU7p5io-MdYXbMMI", clientKey: "7VwDFIQS79lqu5LjJ7YgmsGI")
         return true
     }
 

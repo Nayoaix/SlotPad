@@ -16,10 +16,20 @@ class EventTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //configureView()
     }
-
+    
+    override func viewWillAppear(animated: Bool) {
+        if let currentUser = AVUser.currentUser() {
+            
+        } else{
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                if let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Login") as? LoginViewController{
+                    self.presentViewController(viewController, animated: true, completion: nil)
+                }
+            })
+        }
+    }
+    
     func configureView(){
         self.tableView.rowHeight = 120
     }
